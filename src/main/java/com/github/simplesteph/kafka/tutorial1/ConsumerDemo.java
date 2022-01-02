@@ -21,8 +21,8 @@ public class ConsumerDemo {
         Logger logger = LoggerFactory.getLogger(ConsumerDemo.class.getName());
         String bootstrapServers = "165.227.82.108:9092";
         String groupId = "m4";
-        String topic = "first_topic";
-
+        //String topic = "first_topic";
+        String topic = "ttt";
         Properties properties = new Properties();
         properties.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,bootstrapServers );
         properties.setProperty(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
