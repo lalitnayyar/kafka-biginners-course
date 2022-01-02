@@ -23,10 +23,10 @@ import java.util.concurrent.TimeUnit;
 
 public class TwitterProducer {
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
-    String consumerKey = "Ekhi0UCJemeJPO3COnU4t7C6d";
-    String consumerSecret = "NM8FAFBM7TDRytFA8RvxmBsZA0ZIe4RXEji8eolSwldmQF7ZQX";
-    String token = "1475142890170974210-3osPe8GhAgVfl1EuoBF8IIKAVX5iaX";
-    String secret = "CbEm3wpm5RiHxAsZDaZd1qtBRAaOBR3nvQtIlVKJjkSoN";
+    String consumerKey = "aBGgLCkJRMQFa05Wk1rejjdzX";
+    String consumerSecret = "sry9Zwhs5d6EgOZd00IsSOj6cnxmqvcGaojaXZsNT8ZNW8JIWO";
+    String token = "1475142890170974210-cwu32kP3MKwbelSOyxe86eL5ZXi41l";
+    String secret = "heYYJeZnM2F54jVu5E4CY4PVtR0xD7PhVu5eAFURn3ly4";
 
     List<String> terms = Lists.newArrayList("kafka");
 
